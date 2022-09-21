@@ -1,7 +1,7 @@
 <template>
   <div class="halo-comment" id="halo-comment">
     <div class="comment-count">
-      <span class="vnum" v-html="commentCount"></span> 条评论
+      <span class="vnum" v-html="commentCount"></span> Comments
     </div>
     <div class="comment-load-button" v-if="!mergedConfigs.autoLoad && !loaded">
       <a
@@ -9,7 +9,7 @@
           href="javascript:void(0)"
           rel="nofollow noopener"
           @click="loadComments"
-      >加载评论</a>
+      >Loading Comments</a>
     </div>
 
     <comment-loading
@@ -35,7 +35,7 @@
       </template>
     </ol>
 
-    <div v-if="loaded && !commentLoading && comments.length<=0" class="comment-empty">暂无评论</div>
+    <div v-if="loaded && !commentLoading && comments.length<=0" class="comment-empty">No Comments yet</div>
 
     <div
         v-if="pagination.pages>1"
