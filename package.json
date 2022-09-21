@@ -1,6 +1,6 @@
 {
   "name": "halo-comment-ihelio",
-  "version": "v1.5.8",
+  "version": "v1.5.9",
   "main": "dist/halo-comment.umd.min.js",
   "private": false,
   "files": [
@@ -58,12 +58,12 @@
   "description": "适用于 ihelio.today 的评论组件",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ydeng11/halo-comment-yu.git"
+    "url": "git+https://github.com/ydeng11/halo-comment-ihelio.git"
   },
   "author": "ihelio",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ydeng11/halo-comment-yu/issues"
+    "url": "https://github.com/ydeng11/halo-comment-ihelio/issues"
   },
-  "homepage": "https://github.com/ydeng11/halo-comment-yu#readme"
+  "homepage": "https://github.com/ydeng11/halo-comment-ihelio#readme"
 }
