@@ -65,23 +65,23 @@
         <div class="author-info">
           <div class="commentator commentator-author">
             <label for="author">
-              名称 <span>*</span>
+              Name <span>*</span>
             </label>
             <span class="input-avatar">
               <img :src="avatar" class="avatar-img" />
             </span>
             <input type="text" id="author" class="comment-input author " v-model="comment.author" tabindex="1"
-              required="required" aria-required="true" placeholder="Name*">
+              required="required" aria-required="true" placeholder="You Know Who">
           </div>
           <div class="commentator commentator-email">
             <label for="email">Email</label>
             <input type="text" id="email" class="comment-input email" v-model="comment.email" tabindex="2"
-              placeholder="Allow replies (Optional)">
+              placeholder="Please enter your email">
           </div>
           <div class="commentator commentator-authorUrl">
             <label for="authorUrl">Website</label>
             <input type="text" id="authorUrl" class="comment-input link" v-model="comment.authorUrl" tabindex="3"
-              placeholder="Website(Optional)">
+              placeholder="Please enter your website">
           </div>
         </div>
         <div class="comment-buttons SubmitBtn">

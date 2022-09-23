@@ -1,6 +1,6 @@
 {
   "name": "halo-comment-ihelio",
-  "version": "v1.5.9",
+  "version": "v1.6.0",
   "main": "dist/halo-comment.umd.min.js",
   "private": false,
   "files": [
